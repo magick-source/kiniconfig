@@ -1,0 +1,17 @@
+[versions]
+kotlin = "2.2.20"
+detekt = "2.0.0-alpha.0"
+jackson = "2.15.0"
+junitJupiter = "5.8.1"
+konfig = "1.6.10.0"
+kover = "0.9.2"
+
+[libraries]
+jackson-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+konfig = { module = "com.natpryce:konfig", version.ref = "konfig" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+detekt = { id = "dev.detekt", version.ref = "detekt" }
+kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
