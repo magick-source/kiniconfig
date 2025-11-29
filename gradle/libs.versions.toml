@@ -5,6 +5,8 @@ jackson = "2.15.0"
 junitJupiter = "5.8.1"
 konfig = "1.6.10.0"
 kover = "0.9.2"
+maven-publish = "0.35.0"
+release = "3.1.0"
 
 [libraries]
 jackson-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
@@ -15,3 +17,5 @@ junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.r
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 detekt = { id = "dev.detekt", version.ref = "detekt" }
 kover = { id = "org.jetbrains.kotlinx.kover", version.ref = "kover" }
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish" }
+release = { id = "net.researchgate.release", version.ref = "release" }
